@@ -1,10 +1,7 @@
-package me.nelsoncastro.pokeapichingona.Activities
+package com.example.myapplication.activities
 
 import android.app.Activity
-import android.content.Intent
-import android.content.res.Configuration
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
@@ -13,13 +10,11 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.snackbar.Snackbar
+import com.example.myapplication.R
 import kotlinx.android.synthetic.main.preview_add_movie.*
 import me.nelsoncastro.pokeapichingona.Adapters.RVPreviewAdapter
 import me.nelsoncastro.pokeapichingona.Constants.AppConstants
-import me.nelsoncastro.pokeapichingona.Models.Movie
 import me.nelsoncastro.pokeapichingona.Models.MoviePreview
-import me.nelsoncastro.pokeapichingona.R
 import me.nelsoncastro.pokeapichingona.ViewModel.MovieViewModel
 
 class NewMovieActivity : AppCompatActivity(){
